@@ -18,8 +18,8 @@ class Plugin(object):
         config = dependencies['config']
 
         ContextDestinationView.service = ContextService(config['confd'])
-        ContextDestinationView.register(context, route_base='/context_list')
+        ContextDestinationView.register(context, route_base='/contexts_listing')
 
-        register_listing_url('contexts', 'context.ContextDestinationView:list_json')
+        register_listing_url('context_by_type', 'context.ContextDestinationView:list_json_by_type')
 
         core.register_blueprint(context)
