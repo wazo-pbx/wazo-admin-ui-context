@@ -9,7 +9,7 @@ from wazo_admin_ui.helpers.classful import BaseDestinationView
 
 class ContextDestinationView(BaseDestinationView):
 
-    def list_json(self, type_=None):
+    def list_json(self, type_):
         params = self._extract_params()
         params['type'] = type_
         contexts = self.service.list(**params)
