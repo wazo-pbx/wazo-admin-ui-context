@@ -9,9 +9,9 @@ from wazo_admin_ui.helpers.classful import BaseDestinationView
 
 class ContextDestinationView(BaseDestinationView):
 
-    def list_json(self, type_):
-        print type_
+    def list_json(self, type_=None):
         params = self._extract_params()
+        params['type'] = type_
         contexts = self.service.list(**params)
         results = [{'id': context['id'], 'text': context['name']} for context in contexts['items']]
         return self._select2_response(results, contexts['total'], params)
