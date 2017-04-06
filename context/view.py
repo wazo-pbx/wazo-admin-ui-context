@@ -4,14 +4,16 @@
 
 from __future__ import unicode_literals
 
-from wazo_admin_ui.helpers.classful import BaseDestinationView
+from flask import jsonify, request
+from wazo_admin_ui.helpers.classful import LoginRequiredView
+from wazo_admin_ui.helpers.classful import extract_select2_params, build_select2_response
 
 
-class ContextDestinationView(BaseDestinationView):
+class ContextDestinationView(LoginRequiredView):
 
     def list_json_by_type(self, type_):
-        params = self._extract_params()
+        params = extract_select2_params(request.args)
         params['type'] = type_
         contexts = self.service.list(**params)
         results = [{'id': context['id'], 'text': context['name']} for context in contexts['items']]
-        return self._select2_response(results, contexts['total'], params)
+        return jsonify(build_select2_response(results, contexts['total'], params))
