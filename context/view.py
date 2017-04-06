@@ -15,5 +15,5 @@ class ContextListingView(LoginRequiredView):
         params = extract_select2_params(request.args)
         params['type'] = type_
         contexts = self.service.list(**params)
-        results = [{'id': context['id'], 'text': context['name']} for context in contexts['items']]
+        results = [{'id': context['name'], 'text': context['label']} for context in contexts['items']]
         return jsonify(build_select2_response(results, contexts['total'], params))
