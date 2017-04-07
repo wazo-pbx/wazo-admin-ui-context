@@ -15,9 +15,8 @@ class Plugin(object):
 
     def load(self, dependencies):
         core = dependencies['flask']
-        config = dependencies['config']
 
-        ContextListingView.service = ContextService(config['confd'])
+        ContextListingView.service = ContextService()
         ContextListingView.register(context, route_base='/contexts_listing')
 
         register_listing_url('context_by_type', 'context.ContextListingView:list_json_by_type')
