@@ -7,5 +7,4 @@ from wazo_admin_ui.helpers.service import BaseConfdService
 
 class ContextService(BaseConfdService):
 
-    resource_name = 'context'
     resource_confd = 'contexts'
