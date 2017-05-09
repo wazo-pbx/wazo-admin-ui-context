@@ -1,2 +1,2 @@
-recursive-include context/templates *
-recursive-include context/static *
+recursive-include wazo_plugind_admin_ui_context_official/templates *
+recursive-include wazo_plugind_admin_ui_context_official/static *

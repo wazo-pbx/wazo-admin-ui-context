@@ -23,7 +23,7 @@ setup(
 
     entry_points={
         'wazo_admin_ui.plugins': [
-            'context = context.plugin:Plugin',
+            'context = wazo_plugind_admin_ui_context_official.plugin:Plugin',
         ]
     }
 )
