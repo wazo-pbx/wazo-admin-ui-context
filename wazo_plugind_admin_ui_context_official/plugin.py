@@ -20,5 +20,6 @@ class Plugin(object):
         ContextListingView.register(context, route_base='/contexts_listing')
 
         register_listing_url('context_by_type', 'context.ContextListingView:list_json_by_type')
+        register_listing_url('context', 'context.ContextListingView:list_json')
 
         core.register_blueprint(context)
