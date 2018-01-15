@@ -2,8 +2,23 @@
 # SPDX-License-Identifier: GPL-3.0+
 
 from flask import jsonify, request
-from wazo_admin_ui.helpers.classful import LoginRequiredView
+from flask_babel import lazy_gettext as l_
+from flask_menu.classy import classy_menu_item
+
+from wazo_admin_ui.helpers.classful import BaseView, LoginRequiredView
 from wazo_admin_ui.helpers.classful import extract_select2_params, build_select2_response
+
+from .form import ContextForm
+
+
+class ContextView(BaseView):
+    resource_name = 'context'
+    form = ContextForm
+    resource = l_('Context')
+
+    @classy_menu_item('.advanced.contexts', 'Contexts', order=3, icon="random")
+    def index(self):
+        return super().index()
 
 
 class ContextListingView(LoginRequiredView):
