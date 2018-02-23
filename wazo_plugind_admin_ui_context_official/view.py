@@ -1,4 +1,4 @@
-# Copyright 2017 The Wazo Authors  (see the AUTHORS file)
+# Copyright 2017-2018 The Wazo Authors  (see the AUTHORS file)
 # SPDX-License-Identifier: GPL-3.0+
 
 from flask import jsonify, request
@@ -16,7 +16,7 @@ class ContextView(BaseView):
     form = ContextForm
     resource = l_('Context')
 
-    @classy_menu_item('.advanced.contexts', 'Contexts', order=3, icon="random")
+    @classy_menu_item('.advanced.contexts', l_('Contexts'), order=3, icon="random")
     def index(self):
         return super().index()
 
