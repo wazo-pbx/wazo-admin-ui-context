@@ -1,0 +1,103 @@
+# Translations template for wazo-admin-ui-context.
+# Copyright (C) 2018 The Wazo Authors  (see the AUTHORS file)
+# This file is distributed under the same license as the
+# wazo-admin-ui-context project.
+# Wazo Dev Team <dev@wazo.community>, 2018.
+# 
+# Translators:
+# Cedric Abunar <cabunar@wazo.io>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: wazo-admin-ui-context 0.1\n"
+"Report-Msgid-Bugs-To: 'dev@wazo.community'\n"
+"POT-Creation-Date: 2018-02-23 12:47-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Cedric Abunar <cabunar@wazo.io>, 2018\n"
+"Language-Team: French (https://www.transifex.com/wazo/teams/69545/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: wazo_plugind_admin_ui_context_official/form.py:18
+msgid "Start"
+msgstr "Début"
+
+#: wazo_plugind_admin_ui_context_official/form.py:19
+msgid "End"
+msgstr "Fin"
+
+#: wazo_plugind_admin_ui_context_official/form.py:23
+msgid "DID length"
+msgstr "Longueur SDA"
+
+#: wazo_plugind_admin_ui_context_official/form.py:27
+msgid "Enabled"
+msgstr "Activé"
+
+#: wazo_plugind_admin_ui_context_official/form.py:28
+#: wazo_plugind_admin_ui_context_official/templates/context/list.html:12
+msgid "Name"
+msgstr "Nom"
+
+#: wazo_plugind_admin_ui_context_official/form.py:29
+#: wazo_plugind_admin_ui_context_official/templates/context/list.html:13
+msgid "Label"
+msgstr "Etiquette"
+
+#: wazo_plugind_admin_ui_context_official/form.py:30
+#: wazo_plugind_admin_ui_context_official/templates/context/list.html:14
+msgid "Type"
+msgstr "Type"
+
+#: wazo_plugind_admin_ui_context_official/form.py:31
+msgid "Internal"
+msgstr "Interne"
+
+#: wazo_plugind_admin_ui_context_official/form.py:32
+msgid "Incall"
+msgstr "Appel entrant"
+
+#: wazo_plugind_admin_ui_context_official/form.py:33
+msgid "Outcall"
+msgstr "Appel sortant"
+
+#: wazo_plugind_admin_ui_context_official/form.py:34
+msgid "Services"
+msgstr "Services"
+
+#: wazo_plugind_admin_ui_context_official/form.py:35
+msgid "Others"
+msgstr "Autres"
+
+#: wazo_plugind_admin_ui_context_official/form.py:37
+msgid "Description"
+msgstr "Description"
+
+#: wazo_plugind_admin_ui_context_official/form.py:43
+msgid "Submit"
+msgstr "Envoyé"
+
+#: wazo_plugind_admin_ui_context_official/view.py:17
+msgid "Context"
+msgstr "Contexte"
+
+#: wazo_plugind_admin_ui_context_official/templates/context/list.html:4
+#: wazo_plugind_admin_ui_context_official/templates/context/list.html:9
+#: wazo_plugind_admin_ui_context_official/view.py:19
+msgid "Contexts"
+msgstr "Contextes"
+
+#: wazo_plugind_admin_ui_context_official/templates/context/list.html:4
+msgid "List"
+msgstr "Liste"
+
+#: wazo_plugind_admin_ui_context_official/templates/context/list.html:24
+msgid "Add Context"
+msgstr "Ajouter un contexte"
+
+#: wazo_plugind_admin_ui_context_official/templates/context/list.html:26
+msgid "Add"
+msgstr "Ajouter"
