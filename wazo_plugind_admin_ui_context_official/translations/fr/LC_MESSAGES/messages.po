@@ -1,16 +1,16 @@
-# Translations template for wazo-admin-ui-context.
+# Translations template for wazo_admin_ui_context.
 # Copyright (C) 2018 The Wazo Authors  (see the AUTHORS file)
 # This file is distributed under the same license as the
-# wazo-admin-ui-context project.
+# wazo_admin_ui_context project.
 # Wazo Dev Team <dev@wazo.community>, 2018.
 # 
 # Translators:
 # Cedric Abunar <cabunar@wazo.io>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: wazo-admin-ui-context 0.1\n"
+"Project-Id-Version: wazo_admin_ui_context 0.1\n"
 "Report-Msgid-Bugs-To: 'dev@wazo.community'\n"
-"POT-Creation-Date: 2018-02-23 12:47-0500\n"
+"POT-Creation-Date: 2018-02-27 13:42-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Cedric Abunar <cabunar@wazo.io>, 2018\n"
 "Language-Team: French (https://www.transifex.com/wazo/teams/69545/fr/)\n"
@@ -22,10 +22,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: wazo_plugind_admin_ui_context_official/form.py:18
+#: wazo_plugind_admin_ui_context_official/templates/context/edit.html:40
 msgid "Start"
 msgstr "Début"
 
 #: wazo_plugind_admin_ui_context_official/form.py:19
+#: wazo_plugind_admin_ui_context_official/templates/context/edit.html:41
 msgid "End"
 msgstr "Fin"
 
@@ -57,6 +59,7 @@ msgid "Internal"
 msgstr "Interne"
 
 #: wazo_plugind_admin_ui_context_official/form.py:32
+#: wazo_plugind_admin_ui_context_official/templates/context/edit.html:25
 msgid "Incall"
 msgstr "Appel entrant"
 
@@ -80,15 +83,49 @@ msgstr "Description"
 msgid "Submit"
 msgstr "Soumettre"
 
+#: wazo_plugind_admin_ui_context_official/templates/context/edit.html:9
 #: wazo_plugind_admin_ui_context_official/view.py:17
 msgid "Context"
 msgstr "Contexte"
 
+#: wazo_plugind_admin_ui_context_official/templates/context/edit.html:4
 #: wazo_plugind_admin_ui_context_official/templates/context/list.html:4
 #: wazo_plugind_admin_ui_context_official/templates/context/list.html:9
 #: wazo_plugind_admin_ui_context_official/view.py:19
 msgid "Contexts"
 msgstr "Contextes"
+
+#: wazo_plugind_admin_ui_context_official/templates/context/edit.html:4
+msgid "Edit"
+msgstr "Modifier"
+
+#: wazo_plugind_admin_ui_context_official/templates/context/edit.html:12
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: wazo_plugind_admin_ui_context_official/templates/context/edit.html:20
+msgid "User"
+msgstr "Utilisateur"
+
+#: wazo_plugind_admin_ui_context_official/templates/context/edit.html:21
+msgid "Group"
+msgstr "Groupe"
+
+#: wazo_plugind_admin_ui_context_official/templates/context/edit.html:22
+msgid "Queue"
+msgstr "File d'attente"
+
+#: wazo_plugind_admin_ui_context_official/templates/context/edit.html:23
+msgid "Conference"
+msgstr "Chambre de conférence"
+
+#: wazo_plugind_admin_ui_context_official/templates/context/edit.html:36
+msgid "Ranges"
+msgstr "Intervalle "
+
+#: wazo_plugind_admin_ui_context_official/templates/context/edit.html:43
+msgid "DID Length"
+msgstr "Longueur SDA"
 
 #: wazo_plugind_admin_ui_context_official/templates/context/list.html:4
 msgid "List"
