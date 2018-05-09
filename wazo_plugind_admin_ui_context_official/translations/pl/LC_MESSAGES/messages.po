@@ -4,12 +4,15 @@
 # wazo_admin_ui_context project.
 # Wazo Dev Team <dev@wazo.community>, 2018.
 # 
+# Translators:
+# Ania P., 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: wazo_admin_ui_context 0.1\n"
 "Report-Msgid-Bugs-To: 'dev@wazo.community'\n"
 "POT-Creation-Date: 2018-02-27 13:42-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Ania P., 2018\n"
 "Language-Team: Polish (https://www.transifex.com/wazo/teams/69545/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -21,39 +24,39 @@ msgstr ""
 #: wazo_plugind_admin_ui_context_official/form.py:18
 #: wazo_plugind_admin_ui_context_official/templates/context/edit.html:40
 msgid "Start"
-msgstr ""
+msgstr "Początek"
 
 #: wazo_plugind_admin_ui_context_official/form.py:19
 #: wazo_plugind_admin_ui_context_official/templates/context/edit.html:41
 msgid "End"
-msgstr ""
+msgstr "Koniec"
 
 #: wazo_plugind_admin_ui_context_official/form.py:23
 msgid "DID length"
-msgstr ""
+msgstr "Długość DID"
 
 #: wazo_plugind_admin_ui_context_official/form.py:27
 msgid "Enabled"
-msgstr ""
+msgstr "Włączony"
 
 #: wazo_plugind_admin_ui_context_official/form.py:28
 #: wazo_plugind_admin_ui_context_official/templates/context/list.html:12
 msgid "Name"
-msgstr ""
+msgstr "Nazwa"
 
 #: wazo_plugind_admin_ui_context_official/form.py:29
 #: wazo_plugind_admin_ui_context_official/templates/context/list.html:13
 msgid "Label"
-msgstr ""
+msgstr "Etykieta"
 
 #: wazo_plugind_admin_ui_context_official/form.py:30
 #: wazo_plugind_admin_ui_context_official/templates/context/list.html:14
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 #: wazo_plugind_admin_ui_context_official/form.py:31
 msgid "Internal"
-msgstr ""
+msgstr "Wewnętrzny"
 
 #: wazo_plugind_admin_ui_context_official/form.py:32
 #: wazo_plugind_admin_ui_context_official/templates/context/edit.html:25
@@ -66,72 +69,72 @@ msgstr ""
 
 #: wazo_plugind_admin_ui_context_official/form.py:34
 msgid "Services"
-msgstr ""
+msgstr "Usługi"
 
 #: wazo_plugind_admin_ui_context_official/form.py:35
 msgid "Others"
-msgstr ""
+msgstr "Inne"
 
 #: wazo_plugind_admin_ui_context_official/form.py:37
 msgid "Description"
-msgstr ""
+msgstr "Opis"
 
 #: wazo_plugind_admin_ui_context_official/form.py:43
 msgid "Submit"
-msgstr ""
+msgstr "Zatwierdź"
 
 #: wazo_plugind_admin_ui_context_official/templates/context/edit.html:9
 #: wazo_plugind_admin_ui_context_official/view.py:17
 msgid "Context"
-msgstr ""
+msgstr "Kontekst"
 
 #: wazo_plugind_admin_ui_context_official/templates/context/edit.html:4
 #: wazo_plugind_admin_ui_context_official/templates/context/list.html:4
 #: wazo_plugind_admin_ui_context_official/templates/context/list.html:9
 #: wazo_plugind_admin_ui_context_official/view.py:19
 msgid "Contexts"
-msgstr ""
+msgstr "Konteksty"
 
 #: wazo_plugind_admin_ui_context_official/templates/context/edit.html:4
 msgid "Edit"
-msgstr ""
+msgstr "Edytuj"
 
 #: wazo_plugind_admin_ui_context_official/templates/context/edit.html:12
 msgid "Update"
-msgstr ""
+msgstr "Aktualizuj"
 
 #: wazo_plugind_admin_ui_context_official/templates/context/edit.html:20
 msgid "User"
-msgstr ""
+msgstr "Użytkownik"
 
 #: wazo_plugind_admin_ui_context_official/templates/context/edit.html:21
 msgid "Group"
-msgstr ""
+msgstr "Grupa"
 
 #: wazo_plugind_admin_ui_context_official/templates/context/edit.html:22
 msgid "Queue"
-msgstr ""
+msgstr "Kolejka"
 
 #: wazo_plugind_admin_ui_context_official/templates/context/edit.html:23
 msgid "Conference"
-msgstr ""
+msgstr "Konferencja"
 
 #: wazo_plugind_admin_ui_context_official/templates/context/edit.html:36
 msgid "Ranges"
-msgstr ""
+msgstr "Zakresy"
 
 #: wazo_plugind_admin_ui_context_official/templates/context/edit.html:43
 msgid "DID Length"
-msgstr ""
+msgstr "Długość DID"
 
 #: wazo_plugind_admin_ui_context_official/templates/context/list.html:4
 msgid "List"
-msgstr ""
+msgstr "Lista"
 
 #: wazo_plugind_admin_ui_context_official/templates/context/list.html:24
 msgid "Add Context"
-msgstr ""
+msgstr "Dodaj kontekst"
 
 #: wazo_plugind_admin_ui_context_official/templates/context/list.html:26
 msgid "Add"
-msgstr ""
+msgstr "Dodaj"
